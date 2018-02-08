@@ -1,0 +1,7 @@
+C:\Users\dipamajumdar\Desktop\C#_assignment\English_Dictionary\English_Dictionary\bin\Debug\English_Dictionary.exe.config
+C:\Users\dipamajumdar\Desktop\C#_assignment\English_Dictionary\English_Dictionary\bin\Debug\English_Dictionary.exe
+C:\Users\dipamajumdar\Desktop\C#_assignment\English_Dictionary\English_Dictionary\bin\Debug\English_Dictionary.pdb
+C:\Users\dipamajumdar\Desktop\C#_assignment\English_Dictionary\English_Dictionary\obj\Debug\English_Dictionary.csprojResolveAssemblyReference.cache
+C:\Users\dipamajumdar\Desktop\C#_assignment\English_Dictionary\English_Dictionary\obj\Debug\English_Dictionary.csproj.CoreCompileInputs.cache
+C:\Users\dipamajumdar\Desktop\C#_assignment\English_Dictionary\English_Dictionary\obj\Debug\English_Dictionary.exe
+C:\Users\dipamajumdar\Desktop\C#_assignment\English_Dictionary\English_Dictionary\obj\Debug\English_Dictionary.pdb

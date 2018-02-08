@@ -1,0 +1,7 @@
+C:\Users\dipamajumdar\Desktop\C#_assignment\InventorySystem\InventorySystem\bin\Debug\InventorySystem.exe.config
+C:\Users\dipamajumdar\Desktop\C#_assignment\InventorySystem\InventorySystem\bin\Debug\InventorySystem.exe
+C:\Users\dipamajumdar\Desktop\C#_assignment\InventorySystem\InventorySystem\bin\Debug\InventorySystem.pdb
+C:\Users\dipamajumdar\Desktop\C#_assignment\InventorySystem\InventorySystem\obj\Debug\InventorySystem.csprojResolveAssemblyReference.cache
+C:\Users\dipamajumdar\Desktop\C#_assignment\InventorySystem\InventorySystem\obj\Debug\InventorySystem.csproj.CoreCompileInputs.cache
+C:\Users\dipamajumdar\Desktop\C#_assignment\InventorySystem\InventorySystem\obj\Debug\InventorySystem.exe
+C:\Users\dipamajumdar\Desktop\C#_assignment\InventorySystem\InventorySystem\obj\Debug\InventorySystem.pdb

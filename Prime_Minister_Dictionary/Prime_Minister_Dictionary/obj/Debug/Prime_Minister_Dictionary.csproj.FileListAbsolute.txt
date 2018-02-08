@@ -1,0 +1,7 @@
+C:\Users\dipamajumdar\Desktop\C#_assignment\Prime_Minister_Dictionary\Prime_Minister_Dictionary\bin\Debug\Prime_Minister_Dictionary.exe.config
+C:\Users\dipamajumdar\Desktop\C#_assignment\Prime_Minister_Dictionary\Prime_Minister_Dictionary\bin\Debug\Prime_Minister_Dictionary.exe
+C:\Users\dipamajumdar\Desktop\C#_assignment\Prime_Minister_Dictionary\Prime_Minister_Dictionary\bin\Debug\Prime_Minister_Dictionary.pdb
+C:\Users\dipamajumdar\Desktop\C#_assignment\Prime_Minister_Dictionary\Prime_Minister_Dictionary\obj\Debug\Prime_Minister_Dictionary.csprojResolveAssemblyReference.cache
+C:\Users\dipamajumdar\Desktop\C#_assignment\Prime_Minister_Dictionary\Prime_Minister_Dictionary\obj\Debug\Prime_Minister_Dictionary.csproj.CoreCompileInputs.cache
+C:\Users\dipamajumdar\Desktop\C#_assignment\Prime_Minister_Dictionary\Prime_Minister_Dictionary\obj\Debug\Prime_Minister_Dictionary.exe
+C:\Users\dipamajumdar\Desktop\C#_assignment\Prime_Minister_Dictionary\Prime_Minister_Dictionary\obj\Debug\Prime_Minister_Dictionary.pdb
