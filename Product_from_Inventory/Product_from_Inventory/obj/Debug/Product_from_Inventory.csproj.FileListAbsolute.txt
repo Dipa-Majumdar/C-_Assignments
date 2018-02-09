@@ -1,0 +1,7 @@
+C:\Users\dipamajumdar\Desktop\C#_equality_assignment\Product_from_Inventory\Product_from_Inventory\bin\Debug\Product_from_Inventory.exe.config
+C:\Users\dipamajumdar\Desktop\C#_equality_assignment\Product_from_Inventory\Product_from_Inventory\bin\Debug\Product_from_Inventory.exe
+C:\Users\dipamajumdar\Desktop\C#_equality_assignment\Product_from_Inventory\Product_from_Inventory\bin\Debug\Product_from_Inventory.pdb
+C:\Users\dipamajumdar\Desktop\C#_equality_assignment\Product_from_Inventory\Product_from_Inventory\obj\Debug\Product_from_Inventory.csprojResolveAssemblyReference.cache
+C:\Users\dipamajumdar\Desktop\C#_equality_assignment\Product_from_Inventory\Product_from_Inventory\obj\Debug\Product_from_Inventory.csproj.CoreCompileInputs.cache
+C:\Users\dipamajumdar\Desktop\C#_equality_assignment\Product_from_Inventory\Product_from_Inventory\obj\Debug\Product_from_Inventory.exe
+C:\Users\dipamajumdar\Desktop\C#_equality_assignment\Product_from_Inventory\Product_from_Inventory\obj\Debug\Product_from_Inventory.pdb
