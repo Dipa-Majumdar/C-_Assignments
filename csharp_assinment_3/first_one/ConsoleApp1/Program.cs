@@ -24,6 +24,7 @@ namespace ConsoleApp1
     {
         public static void Main(string[] args)
         {
+            int user_input;
             float sum = 0.0f,average=0.0f;int check;
             List<string> type_leafy = new List<string>();
             List<string> type_cruciferous = new List<string>();
@@ -42,68 +43,110 @@ namespace ConsoleApp1
             product_list.Add(new Product() { name = "Garlic", price = 30, quantity = 20, type = "Leafy green" });
             product_list.Add(new Product() { name = "silverbeet", price = 10, quantity = 50, type = "Marrow" });
 
-            foreach (Product prod in product_list)
-            {
-                
-                string a = prod.type;
-                switch (a)
+
+         
+            string user_reply = "y";
+            while (user_reply=="y"|| user_reply=="Y") {
+                Console.WriteLine("1. Print each product list based Type of product (i.e. Leafy green, Cruciferous, Marrow etc.)");
+                Console.WriteLine("2. Print the total prize of whole Inventory including the quantities of products. ");
+                Console.WriteLine("3. Print the Average price product. ");
+                Console.WriteLine("4. Print the list of costly products and chip products");
+                Console.WriteLine("Choose any one option");
+                user_input = Int32.Parse(Console.ReadLine());
+
+
+                void function1()
                 {
-                    case "Leafy green":
-                        type_leafy.Add(prod.name);
-                        break;
-                    case "Cruciferous":
-                        type_cruciferous.Add(prod.name);
-                        break;
-                    case "Marrow":
-                        type_marrow.Add(prod.name);
-                        break;
-                   
+                    foreach (Product prod in product_list)
+                    {
+
+                        string a = prod.type;
+                        switch (a)
+                        {
+                            case "Leafy green":
+                                type_leafy.Add(prod.name);
+                                break;
+                            case "Cruciferous":
+                                type_cruciferous.Add(prod.name);
+                                break;
+                            case "Marrow":
+                                type_marrow.Add(prod.name);
+                                break;
+
+                        }
+                    }
+                    Console.WriteLine("The Product of type Leafy green is:");
+                    foreach (string prod in type_leafy) {
+                        Console.WriteLine(prod);
+                    }
+                    Console.WriteLine("The Product of type Cruciferous is:");
+                    foreach (string prod in type_cruciferous)
+                    {
+                        Console.WriteLine(prod);
+                    }
+                    Console.WriteLine("The Product of type Marrow is:");
+                    foreach (string prod in type_marrow)
+                    {
+                        Console.WriteLine(prod);
+                    }
                 }
-            }
-            Console.WriteLine("The Product of type Leafy green is:");
-            foreach (string prod in type_leafy) {
-                Console.WriteLine(prod);
-            }
-            Console.WriteLine("The Product of type Cruciferous is:");
-            foreach (string prod in type_cruciferous)
-            {
-                Console.WriteLine(prod);
-            }
-            Console.WriteLine("The Product of type Marrow is:");
-            foreach (string prod in type_marrow)
-            {
-                Console.WriteLine(prod);
-            }
-            foreach (Product prod in product_list)
-            {
-                sum = sum + (prod.price*prod.quantity);
-            }
-            Console.WriteLine($"the total prize of whole Inventory including the quantities of products:{sum}");
-            average = sum / product_list.Count;
-            Console.WriteLine($"Average price product is:{average}");
-            foreach(Product prod in product_list)
-            {
-                if (prod.price > 50)
+
+
+
+                void function2()
                 {
-                    check = 1; }
-                else { check = 0; }
-               
-                switch (check)
-                {
-                    case 0: cheap.Add(prod.name); break;
-                    case 1: costly.Add(prod.name); break;
+                    foreach (Product prod in product_list)
+                    {
+                        sum = sum + (prod.price * prod.quantity);
+                    }
+                    Console.WriteLine($"the total prize of whole Inventory including the quantities of products:{sum}");
                 }
-            }
-            Console.WriteLine("The Cheap products are(if any):");
-            foreach(string a in cheap)
-            {
-                Console.WriteLine(a);
-            }
-            Console.WriteLine("The products are(if any):");
-            foreach (string a in costly)
-            {
-                Console.WriteLine(a);
-            }
+                void function3()
+                {
+                    average = sum / product_list.Count;
+                    Console.WriteLine($"Average price product is:{average}");
+                }
+
+                void function4()
+                {
+                    foreach (Product prod in product_list)
+                    {
+                        if (prod.price > 50)
+                        {
+                            check = 1;
+                        }
+                        else { check = 0; }
+
+                        switch (check)
+                        {
+                            case 0: cheap.Add(prod.name); break;
+                            case 1: costly.Add(prod.name); break;
+                        }
+                    }
+                    Console.WriteLine("The Cheap products are(if any):");
+                    foreach (string a in cheap)
+                    {
+                        Console.WriteLine(a);
+                    }
+                    Console.WriteLine("The products are(if any):");
+                    foreach (string a in costly)
+                    {
+                        Console.WriteLine(a);
+                    }
+                }
+
+                switch (user_input)
+                {
+                    case 1: function1(); break;
+                    case 2: function2(); break;
+                    case 3:
+                        function2(); function3(); break;
+                    case 4: function4(); break;
+
+                }
+                Console.WriteLine("Do you want to continue? Type 'y' or 'Y' to continue and any key to exit.");
+                user_reply=Console.ReadLine();
+            }//while end
         }
     }
 }
